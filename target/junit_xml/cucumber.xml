@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.012371">
+<testcase classname="Table Handling" name="Verify text from table" time="11.012371">
+<system-out><![CDATA[Given navigated to w3school url.............................................passed
+Then verify "Centro comercial Moctezuma" text from example table............passed
+]]></system-out>
+</testcase>
+</testsuite>

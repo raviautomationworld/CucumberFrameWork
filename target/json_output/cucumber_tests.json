@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6381525400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TablesStepDefinition.open_browser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify text from table",
+        "description": "",
+        "id": "table-handling;verify-text-from-table",
+        "after": [
+          {
+            "result": {
+              "duration": 750089400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TablesStepDefinition.close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3027333200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigated to w3school url",
+            "match": {
+              "location": "TablesStepDefinition.navigateURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 853423400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify \"Centro comercial Moctezuma\" text from example table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Centro comercial Moctezuma",
+                  "offset": 8
+                }
+              ],
+              "location": "TablesStepDefinition.verifyText(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@VerifyText"
+          }
+        ]
+      }
+    ],
+    "name": "Table Handling",
+    "description": "",
+    "id": "table-handling",
+    "keyword": "Feature",
+    "uri": "E:/SeleniumTeaching/CodeDemo/CucumberFrameWork/src/main/java/features/Tables.feature"
+  }
+]
